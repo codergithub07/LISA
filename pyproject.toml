@@ -1,0 +1,19 @@
+[project]
+name = "lisa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "codergithub07", email = "justcode.learn@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ollama>=0.6.3",
+]
+
+[project.scripts]
+lisa = "lisa:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
