@@ -7,3 +7,11 @@
 
 - Primary operation of LISA is through "voice" and it also has "text" input method.
 
+
+## While development:
+
+- LISA will be first designed for text input only.
+
+- It will be checked for every usage applications.
+
+- If all the test passed, we will introduce voice input processing.
