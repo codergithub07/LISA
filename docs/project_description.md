@@ -14,4 +14,18 @@
 
 - It will be checked for every usage applications.
 
-- If all the test passed, we will introduce voice input processing.
+- If all the tests passed, we will introduce voice input processing.
+
+
+## Tech-Stack:
+
+1. For text input:
+    - Terminal/CLI
+
+2. For LLM:
+    - OLLAMA
+    - QWEN3.5:4b
+
+3. Others:
+    - MoE (Mixture of Experts)
+    - JEV for expert routing
